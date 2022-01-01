@@ -1,0 +1,33 @@
+
+body { 
+    background: url("/assets/img/bg_1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+
+.bc-logo {
+    width: 10%;
+}
+
+.sub-title {
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.bc-desc {
+    font-size: 12px;
+}
+
+.my-container {
+    /* opacity: 0.5; */
+}

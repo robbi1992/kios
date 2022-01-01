@@ -1,0 +1,49 @@
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.full-width {
+    width: 100%;
+}
+.my-table {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 100%;
+    font-size: 12px;
+}
+
+.bt-1 {
+    border-top: 1px solid;
+}
+
+.br-1 {
+    border-right: 1px solid;
+}
+
+.bc-table {
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    width: 100%;
+    /* font-size: 12px; */
+    border-color: #02275d;
+}
+
+.bc-top-border {
+    border-top: 5px solid;
+    border-color: #02275d;
+}
+
+.bc-pd-10 {
+    padding: 0 20px 20px 20px;
+}
