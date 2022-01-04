@@ -136,6 +136,10 @@
                         // bypass generatecode
                         // Pass.params.isSave = 0;
                         
+                        // remove leave site
+                        window.onbeforeunload = function () {
+                            // blank function do nothing
+                        }
                     });
                 } else {
                     alert('There is something wrong, try again later..');

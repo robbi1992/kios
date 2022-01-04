@@ -4,7 +4,7 @@
     <!-- <link href="/assets/app/css/bc_pdf.css" rel="stylesheet" /> -->
 </head>
 <body>
-    <div style="width: 100%;text-align:center; font-size: 18px;">
+    <div style="width: 100%;text-align:center; margin-top: 0px;">
         <p style="margin-bottom: -10px;"><b>KPU Bea dan Cukai Tipe C Soekarno Hatta</b></p>
         <p><b>Electronic Customs Declaration</b></p>
         <hr />
