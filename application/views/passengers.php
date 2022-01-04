@@ -626,7 +626,7 @@
         <script>
             $(document).ready(function() {
                 $('select').select2();
-
+                
                 window.onbeforeunload = function ()
                 {
                     return "";

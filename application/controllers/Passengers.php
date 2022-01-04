@@ -18,31 +18,31 @@ class Passengers extends CI_Controller {
                 'header' => 'Data Penumpang'
             ),
             'goods' => array(
-                't&m' => '<p>Barang pribadi Penumpang, per orang per kedatangan, mendapatkan pembebasan bea masuk, cukai, dan pajak paling banyak senilai USD 500.00 dari nilai pabean barang yang dibeli/diperoleh di luar negeri dan tidak dibawa kembali keluar negeri.</p>
-                <p>Barang pribadi Awak Sarana Pengangkut, per orang per kedatangan, mendapatkan pembebasan bea masuk, cukai, dan pajak paling banyak senilai USD 50.00 dari nilai pabean barang yang dibeli/ diperoleh di luar negeri dan tidak dibawa kembali keluar negeri.</p>
-                <p>Bagi Anda yang membawa barang impor yang akan digunakan untuk tujuan selain keperluan pribadi (jumlah tidak wajar untuk dipakai/konsumsi sendiri atau untuk keperluan perusahaan/ toko/ institusi/ industri), dipungut bea masuk dan pajak.</p>',
-                't&m2' => 'Barang Kena Cukai untuk keperluan pribadi yang dibeli/ diperoleh di luar negeri dan tidak ditujukan untuk dibawa kembali keluar negeri, diberikan pembebasan bea masuk, cukai dan pajak per orang dewasa untuk setiap kedatangan sebanyak :
+                't&m' => '<p>Barang pribadi Penumpang, per orang per kedatangan, mendapatkan <b>pembebasan bea masuk, cukai, dan pajak paling banyak senilai USD 500.00</b> dari nilai pabean barang yang dibeli/diperoleh di luar negeri dan tidak dibawa kembali keluar negeri.</p>
+                <p>Barang pribadi Awak Sarana Pengangkut, per orang per kedatangan, mendapatkan <b>pembebasan bea masuk, cukai, dan pajak paling banyak senilai USD 50.00</b> dari nilai pabean barang yang dibeli/ diperoleh di luar negeri dan tidak dibawa kembali keluar negeri.</p>
+                <p>Bagi Anda yang membawa barang impor yang akan digunakan untuk tujuan <b>selain keperluan pribadi</b> (jumlah tidak wajar untuk dipakai/konsumsi sendiri atau untuk keperluan perusahaan/ toko/ institusi/ industri), <b>dipungut bea masuk dan pajak</b>.</p>',
+                't&m2' => 'Barang Kena Cukai <b>untuk keperluan pribadi</b> yang dibeli/ diperoleh di luar negeri dan tidak ditujukan untuk dibawa kembali keluar negeri, <b>diberikan pembebasan bea masuk, cukai dan pajak per orang dewasa untuk setiap kedatangan</b> sebanyak :
                     <table class="table">
                     <tr>
-                        <td>1.</td><td colspan="2">Penumpang</td></tr>
+                        <td><b>1.</b></td><td colspan="2"><b>Penumpang</b></td></tr>
                     <tr>
                         <td>&nbsp;</td><td style="vertical-align: top;">a.</td><td>Usia 18 tahun keatas : 200 batang sigaret, 25 batang cerutu, atau 100 gram tembakau iris/produk hasil tembakau dan/atau</td></tr>
                         <tr>
                     <tr>    
                         <td>&nbsp;</td><td style="vertical-align: top;">b.</td><td>Usia 21 tahun keatas : 1 liter minuman mengandung etil alkohol, atau</td></tr>
                     <tr>
-                        <td>2.</td><td colspan="2">Awak Sarana Pengangkut</td></tr>
+                        <td><b>2.</b></td><td colspan="2"><b>Awak Sarana Pengangkut</b></td></tr>
                     <tr>
                         <td>&nbsp;</td><td colspan="2">40 batang sigaret, 10 batang cerutu, 40 gram tembakau iris/hasil tembakau lainnya, dan atau 350 mililiter minuman mengandung etil alkohol</td></tr>
                     </table>
-                    <p>Barang kena cukai yang melebihi jumlah tersebut, atas kelebihannya langsung dimusnahkan oleh Pejabat Bea dan Cukai</p>',
-                't&m3' => 'Anda wajib memberitahukan kepada Petugas Bea dan Cukai jika membawa :
+                    <p>Barang kena cukai yang <b>melebihi jumlah tersebut</b>, atas kelebihannya langsung <b>dimusnahkan</b> oleh Pejabat Bea dan Cukai</p>',
+                't&m3' => 'Anda <b>wajib memberitahukan</b> kepada Petugas Bea dan Cukai jika membawa :
                     <table class="table">
                     <tr>
-                        <td style="vertical-align: top;">1.</td><td>Uang dan/atau instrumen pembayaran lainnya dalam bentuk cek, cek perjalanan, surat sanggup bayar, atau bilyet giro, dalam rupiah atau dalam mata uang asing senilai Rp100.000.000,00 (seratus juta rupiah) atau lebih, atau</td>
+                        <td style="vertical-align: top;">1.</td><td><b>Uang dan/atau instrumen pembayaran lainnya</b> dalam bentuk cek, cek perjalanan, surat sanggup bayar, atau bilyet giro, <b>dalam rupiah atau dalam mata uang asing</b> senilai <b>Rp100.000.000,00 (seratus juta rupiah) atau lebih</b>, atau</td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: top;">2.</td><td>Uang kertas asing paling sedikit setara dengan Rp1.000.000.000,00 (satu milyar rupiah).</td>
+                        <td style="vertical-align: top;">2.</td><td><b>Uang kertas asing</b> paling sedikit setara dengan <b>Rp1.000.000.000,00 (satu milyar rupiah)</b>.</td>
                     </tr>
                     </table>'
             )
@@ -57,31 +57,31 @@ class Passengers extends CI_Controller {
                     'header' => 'Passenger Information'
                 ),
                 'goods' => array(
-                    't&m' => '<p>Every personal goods, per person on every arrival, is granted import duties, excise, and taxes exemption of USD 500.00 on his/her personal goods (personal effect) that were purchased or obtained abroad and will remain in Indonesia.</p>
-                    <p>Every personal crew goods, per person on every arrival, is granted import duties, excise, and taxes exemption of USD 50.00 on his/her personal goods (personal effect) that were purchased or obtained abroad and will remain in Indonesia.</p>
-                    <p>For those who import goods for other purposes than personal use (e.g. the total amount of the goods are unusual for personal use or the goods are used for commercial purposes such as companies/store/institution/industry), are subject to import duties, excise, and taxes.</p>',
-                    't&m2' => 'The following amount of excisable goods for personal use that were purchased or obtained abroad and will remain in Indonesia are exempted from Import duties, excise, and taxes for every arrival:
+                    't&m' => '<p>Every personal goods, per person on every arrival, is <b>granted import duties, excise, and taxes exemption of USD 500.00</b> on his/her personal goods (personal effect) that were purchased or obtained abroad and will remain in Indonesia.</p>
+                    <p>Every personal crew goods, per person on every arrival, is <b>granted import duties, excise, and taxes exemption of USD 50.00</b> on his/her personal goods (personal effect) that were purchased or obtained abroad and will remain in Indonesia.</p>
+                    <p>For those who import goods for <b>other purposes than personal use</b> (e.g. the total amount of the goods are unusual for personal use or the goods are used for commercial purposes such as companies/store/institution/industry), are subject to import duties, excise, and taxes.</p>',
+                    't&m2' => 'The following amount of excisable goods <b>for personal use</b> that were purchased or obtained abroad and will remain in Indonesia are <b>exempted from Import duties, excise, and taxes for every arrival</b>:
                     <table class="table">
                     <tr>
-                        <td>1.</td><td colspan="2">Passenger</td></tr>
+                        <td><b>1.</b></td><td colspan="2"><b>Passenger</b></td></tr>
                     <tr>
                         <td>&nbsp;</td><td style="vertical-align: top;">a.</td><td>18 years old or above: 200 cigarettes, 25 cigars, or 100 grams of sliced tobacco or other tobacco products, and/ or</td></tr>
                         <tr>
                     <tr>    
                         <td>&nbsp;</td><td style="vertical-align: top;">b.</td><td>21 years old or above:  1 liter of alcoholic beverages, or                        </td></tr>
                     <tr>
-                        <td>2.</td><td colspan="2">Crew</td></tr>
+                        <td><b>2.</b></td><td colspan="2"><b>Crew</b></td></tr>
                     <tr>
                         <td>&nbsp;</td><td colspan="2">40 cigarettes, 10 cigars, or 40 grams of sliced tobacco or other tobacco products, and/or 350 milliliter of alcoholic beverages</td></tr>
                     </table>
-                    Upon the excess of the excisable goods will be destroyed',
-                    't&m3' => 'You are required to notify the Customs Officer if you are bringing :
+                    Upon <b>the excess of the excisable goods</b> will be <b>destroyed</b>',
+                    't&m3' => 'You are <b>required to notify</b> the Customs Officer if you are bringing :
                     <table class="table">
                     <tr>
-                        <td style="vertical-align: top;">1.</td><td>Currency and/or bearer negotiable instrument (cheque, traveller cheque, promissory notes, or bilyet giro) in Rupiah or other currencies which equal to the amount 100 million Rupiah or more, or</td>
+                        <td style="vertical-align: top;">1.</td><td><b>Currency and/or bearer negotiable instrument</b> (cheque, traveller cheque, promissory notes, or bilyet giro) <b>in Rupiah or other currencies</b> which equal to the amount <b>100 million Rupiah or more</b>, or</td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: top;">2.</td><td>Foreign banknotes which equal to the amount of 1 billion Rupiah or more.</td>
+                        <td style="vertical-align: top;">2.</td><td><b>Foreign banknotes</b> which equal to the amount of <b>1 billion Rupiah or more</b>.</td>
                     </tr>
                     </table>'
                 )
